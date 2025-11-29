@@ -1,4 +1,3 @@
-import React from 'react';
 import { CoinType } from './types';
 
 export const GRID_SIZE = 20;
