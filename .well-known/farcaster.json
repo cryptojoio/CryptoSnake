@@ -1,18 +1,17 @@
 {
   "frame": {
-    "name": "Crypto Snake",
+    "name": "CryptoSnake",
     "version": "1",
-    "iconUrl": "https://cryptojoio.github.io/CryptoSnake//icon.png",
-    "homeUrl": "https://cryptojoio.github.io/CryptoSnake/",
-    "imageUrl": "https://cryptojoio.github.io/CryptoSnake//image.png",
-    "splashImageUrl": "https://cryptojoio.github.io/CryptoSnake//splash.png",
+    "iconUrl": "https://crypto-snake-jet.vercel.app//icon.png",
+    "homeUrl": "https://crypto-snake-jet.vercel.app/",
+    "imageUrl": "https://crypto-snake-jet.vercel.app//image.png",
+    "splashImageUrl": "https://crypto-snake-jet.vercel.app//splash.png",
     "splashBackgroundColor": "#746D69",
-    "webhookUrl": "https://cryptojoio.github.io/CryptoSnake//api/webhook",
+    "webhookUrl": "https://crypto-snake-jet.vercel.app//api/webhook",
     "subtitle": "Crypto Snake",
     "description": "Crypto Snake",
     "primaryCategory": "games"
   },
- {
   "accountAssociation": {
     "header": "eyJmaWQiOjI3NTA3MCwidHlwZSI6ImF1dGgiLCJrZXkiOiIweDAzNDNCM0YzMWYzZTFDZDFiMDdlNDczM2JCQkI2NTAzZTNmMjk4NkEifQ",
     "payload": "eyJkb21haW4iOiJjcnlwdG8tc25ha2UtamV0LnZlcmNlbC5hcHAifQ",
