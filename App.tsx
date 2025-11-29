@@ -1,4 +1,7 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
+// 1. 引入 SDK
+import { sdk } from '@farcaster/miniapp-sdk';
+
 import { GameStatus, Point, Direction, ScoreRecord, CoinType } from './types';
 import { GRID_SIZE, INITIAL_SPEED, SPEED_INCREMENT, MIN_SPEED, COINS, BTC_ICON } from './constants';
 import { ArrowUp, ArrowDown, ArrowLeft, ArrowRight, Save, RotateCcw, Trophy, Home, ListOrdered, Pause, Play } from 'lucide-react';
@@ -115,6 +118,15 @@ export default function App() {
   const moveQueue = useRef<Direction[]>([]); 
   const speedRef = useRef(INITIAL_SPEED);
   const gameIntervalRef = useRef<number | null>(null);
+
+  // 2. Farcaster SDK Initialization
+  useEffect(() => {
+    const load = async () => {
+      // 通知 Farcaster 隐藏加载动画
+      await sdk.actions.ready();
+    };
+    load();
+  }, []);
 
   // Initialize Leaderboard
   useEffect(() => {
