@@ -12,9 +12,10 @@
     "description": "Crypto Snake",
     "primaryCategory": "games"
   },
+ {
   "accountAssociation": {
-    "header": "eyJmaWQiOjI3NTA3MCwidHlwZSI6ImF1dGgiLCJrZXkiOiIweDAzNDNCM0YzMWYzZTFDZDFiMDdlNDczM2JCQkI2NTAzZTNmMjk4NkEifQ",
+    "header": "eyJmaWQiOjI3NTA3MCwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweEI2OTc0MjcwNEY4ZTA0YjMxQjlCN0ZDMWE1YTk1MWMxQjJkODgxNjkifQ",
     "payload": "eyJkb21haW4iOiJjcnlwdG8tc25ha2UtamV0LnZlcmNlbC5hcHAifQ",
-    "signature": "s0eBEgvWmuQ3K4HZ2Y1RcMKcU4smSL42XTcXu5dzNKctsCcnSW3hcTuyiIVNEa+FgKJGPb9TbV9O3lk3cUsQ8hs="
+    "signature": "QR87bqrxoGczvaLfx5BXLE+aGQZc++S9mf+btdso9+9xQtSdoC/e4ELYCAk70Ba7pXeaZCxRpdhdMzvq4dhlRxw="
   }
 }
