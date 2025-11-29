@@ -1,0 +1,5 @@
+{
+  "name": "Crypto Snake Retro",
+  "description": "A retro-styled Snake game where you play as Bitcoin eating altcoins. Features local leaderboard and a pixel-art handheld aesthetic.",
+  "requestFramePermissions": []
+}
